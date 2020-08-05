@@ -1,0 +1,51 @@
+{
+  "uid" : "beb57da621545716",
+  "name" : "Then I verify invalid login message on sign in page",
+  "fullName" : "Verify invalid login from messenger page.Then I verify invalid login message on sign in page",
+  "historyId" : "b8d7e1c0e5602d662a1507efc2445b5f",
+  "time" : {
+    "start" : 1596469114093,
+    "stop" : 1596469114093,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "description" : "",
+  "descriptionHtml" : "",
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Messenger page feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Tugba-MBP.fios-router.home"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify invalid login from messenger page"
+  }, {
+    "name" : "thread",
+    "value" : "2301@Tugba-MBP.fios-router.home.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify invalid login from messenger page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify invalid login from messenger page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I verify invalid login message on sign in page"
+  }, {
+    "name" : "package",
+    "value" : "Verify invalid login from messenger page"
+  } ],
+  "parameters" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

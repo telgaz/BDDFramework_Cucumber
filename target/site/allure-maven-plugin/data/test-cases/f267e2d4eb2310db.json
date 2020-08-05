@@ -1,0 +1,51 @@
+{
+  "uid" : "f267e2d4eb2310db",
+  "name" : "And I enter test123 into password field on the messenger page",
+  "fullName" : "Verify invalid login from messenger page.And I enter test123 into password field on the messenger page",
+  "historyId" : "7aec79bedb53201200c30d3159717de4",
+  "time" : {
+    "start" : 1596469106201,
+    "stop" : 1596469106201,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "description" : "",
+  "descriptionHtml" : "",
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Messenger page feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Tugba-MBP.fios-router.home"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify invalid login from messenger page"
+  }, {
+    "name" : "thread",
+    "value" : "2301@Tugba-MBP.fios-router.home.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify invalid login from messenger page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify invalid login from messenger page"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I enter test123 into password field on the messenger page"
+  }, {
+    "name" : "package",
+    "value" : "Verify invalid login from messenger page"
+  } ],
+  "parameters" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

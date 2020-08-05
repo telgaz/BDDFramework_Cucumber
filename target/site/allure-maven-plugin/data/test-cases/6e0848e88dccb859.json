@@ -1,0 +1,51 @@
+{
+  "uid" : "6e0848e88dccb859",
+  "name" : "When I enter tugba@sample.com into username field on the messenger page",
+  "fullName" : "Verify invalid login from messenger page.When I enter tugba@sample.com into username field on the messenger page",
+  "historyId" : "6e343f71ea55b7af3bb19000b308f534",
+  "time" : {
+    "start" : 1596469106131,
+    "stop" : 1596469106131,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "description" : "",
+  "descriptionHtml" : "",
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Messenger page feature"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Tugba-MBP.fios-router.home"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify invalid login from messenger page"
+  }, {
+    "name" : "thread",
+    "value" : "2301@Tugba-MBP.fios-router.home.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify invalid login from messenger page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify invalid login from messenger page"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter tugba@sample.com into username field on the messenger page"
+  }, {
+    "name" : "package",
+    "value" : "Verify invalid login from messenger page"
+  } ],
+  "parameters" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

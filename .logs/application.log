@@ -1,0 +1,534 @@
+2020-07-29 11:22:01,675  INFO [main] SharedSD:18 - ***************************
+2020-07-29 11:22:01,686  INFO [main] SharedSD:19 - Test is starting.......!
+2020-07-29 11:22:03,237 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-07-29 11:22:03,261 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-07-29 11:22:03,264 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-07-29 11:22:03,336 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-07-29 11:22:03,342 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://raw.githubusercontent.com:443
+2020-07-29 11:22:03,393 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to raw.githubusercontent.com/151.101.116.133:443
+2020-07-29 11:22:03,393 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to raw.githubusercontent.com/151.101.116.133:443 with timeout 0
+2020-07-29 11:22:03,569 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-07-29 11:22:03,569 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-07-29 11:22:03,570 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2020-07-29 11:22:03,737 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2020-07-29 11:22:03,737 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2020-07-29 11:22:03,738 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-07-29 11:22:03,739 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-07-29 11:22:03,742 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2020-07-29 11:22:03,743 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-07-29 11:22:03,745 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.235:49459<->151.101.116.133:443
+2020-07-29 11:22:03,746 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2020-07-29 11:22:03,746 DEBUG [main] MainClientExec:256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-07-29 11:22:03,747 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-07-29 11:22:03,748 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-07-29 11:22:03,754 DEBUG [main] headers:133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-07-29 11:22:03,756 DEBUG [main] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+2020-07-29 11:22:03,756 DEBUG [main] headers:136 - http-outgoing-0 >> Connection: keep-alive
+2020-07-29 11:22:03,757 DEBUG [main] headers:136 - http-outgoing-0 >> Host: raw.githubusercontent.com
+2020-07-29 11:22:03,758 DEBUG [main] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-29 11:22:03,758 DEBUG [main] wire:73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2020-07-29 11:22:03,758 DEBUG [main] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2020-07-29 11:22:03,759 DEBUG [main] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2020-07-29 11:22:03,759 DEBUG [main] wire:73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2020-07-29 11:22:03,760 DEBUG [main] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-29 11:22:03,761 DEBUG [main] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-07-29 11:22:03,787 DEBUG [main] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-29 11:22:03,787 DEBUG [main] wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2020-07-29 11:22:03,788 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Length: 814[\r][\n]"
+2020-07-29 11:22:03,788 DEBUG [main] wire:73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2020-07-29 11:22:03,789 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2020-07-29 11:22:03,789 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2020-07-29 11:22:03,790 DEBUG [main] wire:73 - http-outgoing-0 << "ETag: W/"70d225106d19d8c8c53da247fd7fc06e70985cf2a185e7d011c90e0e74d7a345"[\r][\n]"
+2020-07-29 11:22:03,790 DEBUG [main] wire:73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2020-07-29 11:22:03,791 DEBUG [main] wire:73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-07-29 11:22:03,791 DEBUG [main] wire:73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2020-07-29 11:22:03,791 DEBUG [main] wire:73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-07-29 11:22:03,792 DEBUG [main] wire:73 - http-outgoing-0 << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2020-07-29 11:22:03,792 DEBUG [main] wire:73 - http-outgoing-0 << "X-GitHub-Request-Id: 79E8:193E:16DB81:1B224C:5F218703[\r][\n]"
+2020-07-29 11:22:03,793 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-07-29 11:22:03,793 DEBUG [main] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2020-07-29 11:22:03,794 DEBUG [main] wire:73 - http-outgoing-0 << "Date: Wed, 29 Jul 2020 15:22:03 GMT[\r][\n]"
+2020-07-29 11:22:03,794 DEBUG [main] wire:73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2020-07-29 11:22:03,794 DEBUG [main] wire:73 - http-outgoing-0 << "X-Served-By: cache-bos4648-BOS[\r][\n]"
+2020-07-29 11:22:03,795 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache: HIT, HIT[\r][\n]"
+2020-07-29 11:22:03,795 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache-Hits: 16, 1[\r][\n]"
+2020-07-29 11:22:03,795 DEBUG [main] wire:73 - http-outgoing-0 << "X-Timer: S1596036124.780349,VS0,VE0[\r][\n]"
+2020-07-29 11:22:03,858 DEBUG [main] wire:73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2020-07-29 11:22:03,869 DEBUG [main] wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-07-29 11:22:03,870 DEBUG [main] wire:73 - http-outgoing-0 << "X-Fastly-Request-ID: 51d0c3b5b39250253cd3b935f60ca6d06098f16c[\r][\n]"
+2020-07-29 11:22:03,871 DEBUG [main] wire:73 - http-outgoing-0 << "Expires: Wed, 29 Jul 2020 15:27:03 GMT[\r][\n]"
+2020-07-29 11:22:03,881 DEBUG [main] wire:73 - http-outgoing-0 << "Source-Age: 274[\r][\n]"
+2020-07-29 11:22:03,886 DEBUG [main] wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-07-29 11:22:03,899 DEBUG [main] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-29 11:22:03,899 DEBUG [main] headers:125 - http-outgoing-0 << Connection: keep-alive
+2020-07-29 11:22:03,909 DEBUG [main] headers:125 - http-outgoing-0 << Content-Length: 814
+2020-07-29 11:22:03,909 DEBUG [main] headers:125 - http-outgoing-0 << Cache-Control: max-age=300
+2020-07-29 11:22:03,909 DEBUG [main] headers:125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2020-07-29 11:22:03,910 DEBUG [main] headers:125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2020-07-29 11:22:03,910 DEBUG [main] headers:125 - http-outgoing-0 << ETag: W/"70d225106d19d8c8c53da247fd7fc06e70985cf2a185e7d011c90e0e74d7a345"
+2020-07-29 11:22:03,910 DEBUG [main] headers:125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2020-07-29 11:22:03,911 DEBUG [main] headers:125 - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-07-29 11:22:03,911 DEBUG [main] headers:125 - http-outgoing-0 << X-Frame-Options: deny
+2020-07-29 11:22:03,911 DEBUG [main] headers:125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2020-07-29 11:22:03,912 DEBUG [main] headers:125 - http-outgoing-0 << Via: 1.1 varnish (Varnish/6.0)
+2020-07-29 11:22:03,912 DEBUG [main] headers:125 - http-outgoing-0 << X-GitHub-Request-Id: 79E8:193E:16DB81:1B224C:5F218703
+2020-07-29 11:22:03,912 DEBUG [main] headers:125 - http-outgoing-0 << Content-Encoding: gzip
+2020-07-29 11:22:03,913 DEBUG [main] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2020-07-29 11:22:03,917 DEBUG [main] headers:125 - http-outgoing-0 << Date: Wed, 29 Jul 2020 15:22:03 GMT
+2020-07-29 11:22:03,918 DEBUG [main] headers:125 - http-outgoing-0 << Via: 1.1 varnish
+2020-07-29 11:22:03,918 DEBUG [main] headers:125 - http-outgoing-0 << X-Served-By: cache-bos4648-BOS
+2020-07-29 11:22:03,918 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache: HIT, HIT
+2020-07-29 11:22:03,919 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache-Hits: 16, 1
+2020-07-29 11:22:03,920 DEBUG [main] headers:125 - http-outgoing-0 << X-Timer: S1596036124.780349,VS0,VE0
+2020-07-29 11:22:03,923 DEBUG [main] headers:125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+2020-07-29 11:22:03,923 DEBUG [main] headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-07-29 11:22:03,924 DEBUG [main] headers:125 - http-outgoing-0 << X-Fastly-Request-ID: 51d0c3b5b39250253cd3b935f60ca6d06098f16c
+2020-07-29 11:22:03,924 DEBUG [main] headers:125 - http-outgoing-0 << Expires: Wed, 29 Jul 2020 15:27:03 GMT
+2020-07-29 11:22:03,924 DEBUG [main] headers:125 - http-outgoing-0 << Source-Age: 274
+2020-07-29 11:22:04,135 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-07-29 11:22:04,156 DEBUG [main] wire:73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x96][0xcb][0x8e][0xd3]0[0x14][0x86][0xf7]}[\n]"
+2020-07-29 11:22:04,157 DEBUG [main] wire:73 - http-outgoing-0 << "Kl`1[0x8e][0xef]vF[0xf2][0x86][0xeb][\n]"
+2020-07-29 11:22:04,158 DEBUG [main] wire:73 - http-outgoing-0 << "[0xb1][0x80][0x17]H[[0xb7][0x8d]H[0xe3][0xca][0xc9]P[0xe0][0xe9][0xf1]5[0xe3][0xb1]@b[0xd7][0xff][0x8b]}[0xfc]'>[0x97][0xbe][0x2][0xdf].[0xe3][0x2]N[0xe3]d[0xc0][0xc1][0xce][0xeb]0[0xce][0xb]X/[0x6]|[0x9f][0xed]}[0x6]?[0x8c][F[0xeb][0xd1][0xc9]:ptc[0xd0][0xe0][0xf5]~[0x9c][0x7][0xf7][0xeb][0x8d][0xdf]p[0xbd][\r][0xeb][0xb8][0xf7]{[0xef][0xe3]z[0x89][0xfb][0xe][0xd6]9[0xb3][0xdc][0xec]|[0x1c][0xe7]3[0xd8];{_[0x8c]+qv[0xbb]W[0xe0]mB[0x8f][0xe0][0x93][0xb5]g[0xbf][0xf3][0xdd][0xc5][0xd9][0xab][0x1][0xc3]|L?[0xc7][0xa7]+x[0x0][0xef][0xe3]Y[0x8f][0xe0][0x10][0x9f][0xa6][0x93][0xfd][0xe6][0xaf][0xf6][0xc9][0x1d][0xcc]#[0xb8][0xac][0xeb][0xed][0xb1][0xeb][0xea][0xa7][0xf0][0x90]wC[0xeb][0xce][0xdd][0xd1][0xbb][0x9f][0xec]p\vi[0x8d][0xe2]Zq[0x88] [0xc3][0x8a]B[0xaa][\n]"
+2020-07-29 11:22:04,158 DEBUG [main] wire:73 - http-outgoing-0 << "eZ[0xb1]H[0x99][0x84][0x14][0x15]J[0xb5]_[0x14]([0xf2]k[0xfb]B[0xb1]V8P[0xc4][0x18][0xc4][0xcf]![0x90]V[0xc8]c[0xda]+[0x9]1[0x12][0x19][0xcb]^[0xcb]>b[0xc6]![0xdd][0xa8][0xd2]RE[0x8a]|[0xc][0xc4][0xb][0x96]Z[0xca][0x80][0x95][0xe0]>~[0xa1]BK[0x11])[0xea]!&[[0xc][0xae]ex[0x13]*%[0x82][0xf8]y5[0xd3][0x92]ELz[0xb8][0xad][0xa5]Z[0x86]7[0xa1][0xc2][0xbf][0x90]([0x96]%[0xd1][0x4][0xb2]m[\r]~[0xa1]PP[0xc5][0x98][0xe8][0x83]bE[0xa9][0xa0]HQ2(\[0x94][0x8][0xaa][0x98][0x11][0xdc][0xab][0xed][0x13][0x9][0x16][0x94],[0x8a][0x6]U[0xce][0x13][0xc1][0xb][0xdd][0xce][0xb]^[0xe8]v^[0xf0]B[0xe9][0x8b][0xa4][0xf9]l[0x8f][0xd3]4[0x80][0x8f][0xa3]3'[0xfb][0xb3][0xca][0x94][0xb3]9|[0xb7]M[0x94][0xc5]g[0xca][0xd9][0xe7][0xe7][0xd3][0x1e][0xfa][0x8c][0xed][0xae])DWm[0xe8][0x9c][0x99][0xcc][0xb0][0x98]ewJq[0xfd][0xf5]!H[0xfc][0x9d]l@[0x5] * [ Z[0xc0][[0xc0]Z@[@Z[0x80][[0x80][0x1a] [0xfa][0x16]D[0xa7][0xbc][0x2][0xd1])[0xab][0x80]h[0x1]oAtJ+@[[0x10][0x9d][0x92][\n]"
+2020-07-29 11:22:04,159 DEBUG [main] wire:73 - http-outgoing-0 << "D[0xa7][0xb8][0x2][0xa8][0x1][0xbc]o[0x81]j[0x81]lAt[0x8a]*[0xc0][0xb][0xa8][0x93][0xe2][0xcb][0xcd][0xb8][0xa1]J[0x5][0x1b][0xf4][0xff][0xa4]B\[0xb8][0xd8][0xd3]z[0x1f][0x9c]I[0xaa]t[0x91]61[0xe2]C[0xff][0xf5][0x9f][0xfb][0x85][0xea][0x13][0xf4]7[0xf0][0xdc].z[0x99][0xa1][0xaa][0xbb][0x5][0xa6][0x99][0xca][0x17][0xcd][0x2]e*[0xaa]^!KT^[0xb5][\n]"
+2020-07-29 11:22:04,159 DEBUG [main] wire:73 - http-outgoing-0 << "U[0xa2][0xb2][0xaa]Q`R[0xf6][0xd3][0xba]QP[0x92])[0xa9][0xfb][0xc4]vV[0xae][0xef](x_[0x8b]\[0xdd]I[0xe4][0xe2]N"[0xd7]v[0x12][0xb9][0xb4][0x93][0xc8][0x95][0x9d]D.[0xec]$r]'[0x81]S!'[0x81]*[0xc1][0x82][0x83][0xe2][0x98][0x5][0x7]4[0x9f][0xc3][0x82][0x3][0x92]?[0x6][0x13]I[0xbc][0xe8][0x4][0xe3][0xc1][0xd9]pw[0xe0][0xc3][0xf1]l[0xaa][0xdb][0xbf].[0xc6][0x83]^[0xff][0xd1][0xfc]0S[0x88][\n]"
+2020-07-29 11:22:04,160 DEBUG [main] wire:87 - http-outgoing-0 << "[0xaf]%B[0xcc][0x5]3?<-[0xdd][0xc6][0x1e]B[0x90]n[0xb5]vZ[0xba][0xbb][0xd9][0xe7]t[0xd8][0x5][0xaa][0x84]V[0xe1]{[0xf3][0xd0][[0x13][0xc9][0xd3][0x85][0xb]VH[0x9e],[0x9c]l[0xa4]L[0x15][0xad]\%D[0xb4]"[0x1]qo[0x89][0x94]![0x83][0x5][0x94]2[0xa1]2`[0x4][0xf6][0x89][0x94][0x96]m[0xd3][0x5][0x17][0x7]e[0xb2][0x90][0x90][0x1f][0x89][0xe4][0xa1]B[0xe8]F[0xf2]@[0x9]#0[0x93]<K0[0xed]}UE[0xc4][0x98][0xbe]9[0xf3][0xe0][0xff][0x6][0xac][0xc3]4[0x99]c[0x82]D[0xb][0x88]%[0xf6][0xad]9J[0xac]}[0xfa][0x9][0xd2][0xf7]I"[0xed]s[0x9c]#A[0xa3][0xa4]JS?[0x98]h[0x9f]$[0x9][0x9][0xe3]g[0x9d][0x12]I"[0xed][0xdf][0x3][0x11][0x9f]O[0x0],[0xd4]{m|[0x8][0x0][0x0]"
+2020-07-29 11:22:04,161 DEBUG [main] PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2020-07-29 11:22:04,162 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-07-29 11:22:04,164 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-07-29 11:22:14,940 ERROR [main] SharedSD:27 - Test Failed
+2020-07-29 11:22:16,646  INFO [main] SharedSD:35 - *******************
+2020-07-29 11:23:16,093  INFO [main] SharedSD:18 - ***************************
+2020-07-29 11:23:16,103  INFO [main] SharedSD:19 - Test is starting.......!
+2020-07-29 11:23:38,044  INFO [main] SharedSD:32 - Cleanup...!
+2020-07-29 11:23:38,044  INFO [main] SharedSD:33 - Test was completed
+2020-07-29 11:23:38,045  INFO [main] SharedSD:35 - *******************
+2020-08-03 09:16:07,956  INFO [main] SharedSD:18 - ***************************
+2020-08-03 09:16:07,966  INFO [main] SharedSD:19 - Test is starting.......!
+2020-08-03 09:16:25,882  INFO [main] SharedSD:32 - Cleanup...!
+2020-08-03 09:16:25,882  INFO [main] SharedSD:33 - Test was completed
+2020-08-03 09:16:25,883  INFO [main] SharedSD:35 - *******************
+2020-08-03 09:42:14,578  INFO [main] SharedSD:18 - ***************************
+2020-08-03 09:42:14,617  INFO [main] SharedSD:19 - Test is starting.......!
+2020-08-03 09:42:41,667 ERROR [main] SharedSD:27 - Test Failed
+2020-08-03 09:42:42,219 DEBUG [main] BooleanConverter:336 - Setting default value: false
+2020-08-03 09:42:42,221 DEBUG [main] BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-08-03 09:42:42,223 DEBUG [main] BooleanConverter:149 -     No conversion required, value is already a Boolean
+2020-08-03 09:42:42,272 DEBUG [main] ByteConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,274 DEBUG [main] ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2020-08-03 09:42:42,279 DEBUG [main] ByteConverter:158 -     Converted to Byte value '0'
+2020-08-03 09:42:42,289 DEBUG [main] CharacterConverter:336 - Setting default value:  
+2020-08-03 09:42:42,290 DEBUG [main] CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2020-08-03 09:42:42,292 DEBUG [main] CharacterConverter:149 -     No conversion required, value is already a Character
+2020-08-03 09:42:42,298 DEBUG [main] DoubleConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,300 DEBUG [main] DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2020-08-03 09:42:42,302 DEBUG [main] DoubleConverter:158 -     Converted to Double value '0.0'
+2020-08-03 09:42:42,308 DEBUG [main] FloatConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,319 DEBUG [main] FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2020-08-03 09:42:42,321 DEBUG [main] FloatConverter:158 -     Converted to Float value '0.0'
+2020-08-03 09:42:42,328 DEBUG [main] IntegerConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,330 DEBUG [main] IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2020-08-03 09:42:42,333 DEBUG [main] IntegerConverter:149 -     No conversion required, value is already a Integer
+2020-08-03 09:42:42,346 DEBUG [main] LongConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,348 DEBUG [main] LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2020-08-03 09:42:42,349 DEBUG [main] LongConverter:158 -     Converted to Long value '0'
+2020-08-03 09:42:42,363 DEBUG [main] ShortConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,366 DEBUG [main] ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2020-08-03 09:42:42,369 DEBUG [main] ShortConverter:158 -     Converted to Short value '0'
+2020-08-03 09:42:42,377 DEBUG [main] BigDecimalConverter:336 - Setting default value: 0.0
+2020-08-03 09:42:42,380 DEBUG [main] BigDecimalConverter:127 - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2020-08-03 09:42:42,384 DEBUG [main] BigDecimalConverter:149 -     No conversion required, value is already a BigDecimal
+2020-08-03 09:42:42,391 DEBUG [main] BigIntegerConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,393 DEBUG [main] BigIntegerConverter:127 - Converting 'BigInteger' value '0' to type 'BigInteger'
+2020-08-03 09:42:42,395 DEBUG [main] BigIntegerConverter:149 -     No conversion required, value is already a BigInteger
+2020-08-03 09:42:42,396 DEBUG [main] BooleanConverter:336 - Setting default value: false
+2020-08-03 09:42:42,397 DEBUG [main] BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-08-03 09:42:42,399 DEBUG [main] BooleanConverter:149 -     No conversion required, value is already a Boolean
+2020-08-03 09:42:42,400 DEBUG [main] ByteConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,408 DEBUG [main] ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2020-08-03 09:42:42,409 DEBUG [main] ByteConverter:158 -     Converted to Byte value '0'
+2020-08-03 09:42:42,410 DEBUG [main] CharacterConverter:336 - Setting default value:  
+2020-08-03 09:42:42,412 DEBUG [main] CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2020-08-03 09:42:42,413 DEBUG [main] CharacterConverter:149 -     No conversion required, value is already a Character
+2020-08-03 09:42:42,415 DEBUG [main] DoubleConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,417 DEBUG [main] DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2020-08-03 09:42:42,418 DEBUG [main] DoubleConverter:158 -     Converted to Double value '0.0'
+2020-08-03 09:42:42,419 DEBUG [main] FloatConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,420 DEBUG [main] FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2020-08-03 09:42:42,422 DEBUG [main] FloatConverter:158 -     Converted to Float value '0.0'
+2020-08-03 09:42:42,424 DEBUG [main] IntegerConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,426 DEBUG [main] IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2020-08-03 09:42:42,428 DEBUG [main] IntegerConverter:149 -     No conversion required, value is already a Integer
+2020-08-03 09:42:42,430 DEBUG [main] LongConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,442 DEBUG [main] LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2020-08-03 09:42:42,444 DEBUG [main] LongConverter:158 -     Converted to Long value '0'
+2020-08-03 09:42:42,445 DEBUG [main] ShortConverter:336 - Setting default value: 0
+2020-08-03 09:42:42,454 DEBUG [main] ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2020-08-03 09:42:42,458 DEBUG [main] ShortConverter:158 -     Converted to Short value '0'
+2020-08-03 09:42:42,467 DEBUG [main] StringConverter:336 - Setting default value: 
+2020-08-03 09:42:42,474 DEBUG [main] StringConverter:127 - Converting 'String' value '' to type 'String'
+2020-08-03 09:42:42,640 DEBUG [main] ArrayConverter:336 - Setting default value: [Z@74863aec
+2020-08-03 09:42:42,642 DEBUG [main] ArrayConverter:127 - Converting 'boolean[]' value '[Z@74863aec' to type 'boolean[]'
+2020-08-03 09:42:42,644 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a boolean[]
+2020-08-03 09:42:42,649 DEBUG [main] ArrayConverter:336 - Setting default value: [B@4f9a8d71
+2020-08-03 09:42:42,651 DEBUG [main] ArrayConverter:127 - Converting 'byte[]' value '[B@4f9a8d71' to type 'byte[]'
+2020-08-03 09:42:42,653 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a byte[]
+2020-08-03 09:42:42,655 DEBUG [main] ArrayConverter:336 - Setting default value: [C@363a1d8d
+2020-08-03 09:42:42,668 DEBUG [main] ArrayConverter:127 - Converting 'char[]' value '[C@363a1d8d' to type 'char[]'
+2020-08-03 09:42:42,674 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a char[]
+2020-08-03 09:42:42,675 DEBUG [main] ArrayConverter:336 - Setting default value: [D@369958b0
+2020-08-03 09:42:42,677 DEBUG [main] ArrayConverter:127 - Converting 'double[]' value '[D@369958b0' to type 'double[]'
+2020-08-03 09:42:42,680 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a double[]
+2020-08-03 09:42:42,683 DEBUG [main] ArrayConverter:336 - Setting default value: [F@2e1c3b8f
+2020-08-03 09:42:42,685 DEBUG [main] ArrayConverter:127 - Converting 'float[]' value '[F@2e1c3b8f' to type 'float[]'
+2020-08-03 09:42:42,687 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a float[]
+2020-08-03 09:42:42,688 DEBUG [main] ArrayConverter:336 - Setting default value: [I@348c00d9
+2020-08-03 09:42:42,691 DEBUG [main] ArrayConverter:127 - Converting 'int[]' value '[I@348c00d9' to type 'int[]'
+2020-08-03 09:42:42,692 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a int[]
+2020-08-03 09:42:42,694 DEBUG [main] ArrayConverter:336 - Setting default value: [J@41f274d
+2020-08-03 09:42:42,698 DEBUG [main] ArrayConverter:127 - Converting 'long[]' value '[J@41f274d' to type 'long[]'
+2020-08-03 09:42:42,700 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a long[]
+2020-08-03 09:42:42,708 DEBUG [main] ArrayConverter:336 - Setting default value: [S@67fdc1e9
+2020-08-03 09:42:42,713 DEBUG [main] ArrayConverter:127 - Converting 'short[]' value '[S@67fdc1e9' to type 'short[]'
+2020-08-03 09:42:42,715 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a short[]
+2020-08-03 09:42:42,717 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.math.BigDecimal;@4e7bf371
+2020-08-03 09:42:42,719 DEBUG [main] ArrayConverter:127 - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@4e7bf371' to type 'BigDecimal[]'
+2020-08-03 09:42:42,721 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a BigDecimal[]
+2020-08-03 09:42:42,725 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.math.BigInteger;@97e9568
+2020-08-03 09:42:42,730 DEBUG [main] ArrayConverter:127 - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@97e9568' to type 'BigInteger[]'
+2020-08-03 09:42:42,732 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a BigInteger[]
+2020-08-03 09:42:42,734 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Boolean;@377b773c
+2020-08-03 09:42:42,738 DEBUG [main] ArrayConverter:127 - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@377b773c' to type 'Boolean[]'
+2020-08-03 09:42:42,740 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Boolean[]
+2020-08-03 09:42:42,747 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Byte;@650929dc
+2020-08-03 09:42:42,753 DEBUG [main] ArrayConverter:127 - Converting 'Byte[]' value '[Ljava.lang.Byte;@650929dc' to type 'Byte[]'
+2020-08-03 09:42:42,755 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Byte[]
+2020-08-03 09:42:42,757 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Character;@781befe7
+2020-08-03 09:42:42,759 DEBUG [main] ArrayConverter:127 - Converting 'Character[]' value '[Ljava.lang.Character;@781befe7' to type 'Character[]'
+2020-08-03 09:42:42,760 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Character[]
+2020-08-03 09:42:42,763 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Double;@451393a9
+2020-08-03 09:42:42,770 DEBUG [main] ArrayConverter:127 - Converting 'Double[]' value '[Ljava.lang.Double;@451393a9' to type 'Double[]'
+2020-08-03 09:42:42,772 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Double[]
+2020-08-03 09:42:42,775 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Float;@5b9aac82
+2020-08-03 09:42:42,780 DEBUG [main] ArrayConverter:127 - Converting 'Float[]' value '[Ljava.lang.Float;@5b9aac82' to type 'Float[]'
+2020-08-03 09:42:42,781 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Float[]
+2020-08-03 09:42:42,783 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Integer;@2b1818d1
+2020-08-03 09:42:42,785 DEBUG [main] ArrayConverter:127 - Converting 'Integer[]' value '[Ljava.lang.Integer;@2b1818d1' to type 'Integer[]'
+2020-08-03 09:42:42,787 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Integer[]
+2020-08-03 09:42:42,789 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Long;@1104cc93
+2020-08-03 09:42:42,804 DEBUG [main] ArrayConverter:127 - Converting 'Long[]' value '[Ljava.lang.Long;@1104cc93' to type 'Long[]'
+2020-08-03 09:42:42,806 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Long[]
+2020-08-03 09:42:42,810 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Short;@72e9c0a0
+2020-08-03 09:42:42,812 DEBUG [main] ArrayConverter:127 - Converting 'Short[]' value '[Ljava.lang.Short;@72e9c0a0' to type 'Short[]'
+2020-08-03 09:42:42,814 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Short[]
+2020-08-03 09:42:42,816 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.String;@7e9b68c5
+2020-08-03 09:42:42,822 DEBUG [main] ArrayConverter:127 - Converting 'String[]' value '[Ljava.lang.String;@7e9b68c5' to type 'String[]'
+2020-08-03 09:42:42,823 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a String[]
+2020-08-03 09:42:42,827 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Class;@3f04349b
+2020-08-03 09:42:42,830 DEBUG [main] ArrayConverter:127 - Converting 'Class[]' value '[Ljava.lang.Class;@3f04349b' to type 'Class[]'
+2020-08-03 09:42:42,834 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Class[]
+2020-08-03 09:42:42,837 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.util.Date;@14ca4b4d
+2020-08-03 09:42:42,839 DEBUG [main] ArrayConverter:127 - Converting 'Date[]' value '[Ljava.util.Date;@14ca4b4d' to type 'Date[]'
+2020-08-03 09:42:42,847 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Date[]
+2020-08-03 09:42:42,853 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.util.Calendar;@1201c2f6
+2020-08-03 09:42:42,858 DEBUG [main] ArrayConverter:127 - Converting 'Calendar[]' value '[Ljava.util.Calendar;@1201c2f6' to type 'Calendar[]'
+2020-08-03 09:42:42,873 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Calendar[]
+2020-08-03 09:42:42,875 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.io.File;@4ae93e38
+2020-08-03 09:42:42,884 DEBUG [main] ArrayConverter:127 - Converting 'java.io.File[]' value '[Ljava.io.File;@4ae93e38' to type 'java.io.File[]'
+2020-08-03 09:42:42,900 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.io.File[]
+2020-08-03 09:42:42,918 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Date;@71549247
+2020-08-03 09:42:42,922 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@71549247' to type 'java.sql.Date[]'
+2020-08-03 09:42:42,924 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Date[]
+2020-08-03 09:42:42,938 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Time;@266b7d1
+2020-08-03 09:42:42,941 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@266b7d1' to type 'java.sql.Time[]'
+2020-08-03 09:42:42,943 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Time[]
+2020-08-03 09:42:42,953 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Timestamp;@4dea763c
+2020-08-03 09:42:42,956 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@4dea763c' to type 'java.sql.Timestamp[]'
+2020-08-03 09:42:42,964 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Timestamp[]
+2020-08-03 09:42:42,972 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.net.URL;@111ae918
+2020-08-03 09:42:42,974 DEBUG [main] ArrayConverter:127 - Converting 'java.net.URL[]' value '[Ljava.net.URL;@111ae918' to type 'java.net.URL[]'
+2020-08-03 09:42:42,975 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.net.URL[]
+2020-08-03 09:43:54,589  INFO [main] SharedSD:18 - ***************************
+2020-08-03 09:43:54,624  INFO [main] SharedSD:19 - Test is starting.......!
+2020-08-03 09:44:28,470 DEBUG [main] BooleanConverter:336 - Setting default value: false
+2020-08-03 09:44:28,474 DEBUG [main] BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-08-03 09:44:28,478 DEBUG [main] BooleanConverter:149 -     No conversion required, value is already a Boolean
+2020-08-03 09:44:28,518 DEBUG [main] ByteConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,526 DEBUG [main] ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2020-08-03 09:44:28,531 DEBUG [main] ByteConverter:158 -     Converted to Byte value '0'
+2020-08-03 09:44:28,545 DEBUG [main] CharacterConverter:336 - Setting default value:  
+2020-08-03 09:44:28,549 DEBUG [main] CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2020-08-03 09:44:28,552 DEBUG [main] CharacterConverter:149 -     No conversion required, value is already a Character
+2020-08-03 09:44:28,561 DEBUG [main] DoubleConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,564 DEBUG [main] DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2020-08-03 09:44:28,567 DEBUG [main] DoubleConverter:158 -     Converted to Double value '0.0'
+2020-08-03 09:44:28,576 DEBUG [main] FloatConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,582 DEBUG [main] FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2020-08-03 09:44:28,606 DEBUG [main] FloatConverter:158 -     Converted to Float value '0.0'
+2020-08-03 09:44:28,620 DEBUG [main] IntegerConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,622 DEBUG [main] IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2020-08-03 09:44:28,625 DEBUG [main] IntegerConverter:149 -     No conversion required, value is already a Integer
+2020-08-03 09:44:28,638 DEBUG [main] LongConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,641 DEBUG [main] LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2020-08-03 09:44:28,644 DEBUG [main] LongConverter:158 -     Converted to Long value '0'
+2020-08-03 09:44:28,655 DEBUG [main] ShortConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,660 DEBUG [main] ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2020-08-03 09:44:28,665 DEBUG [main] ShortConverter:158 -     Converted to Short value '0'
+2020-08-03 09:44:28,674 DEBUG [main] BigDecimalConverter:336 - Setting default value: 0.0
+2020-08-03 09:44:28,676 DEBUG [main] BigDecimalConverter:127 - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2020-08-03 09:44:28,685 DEBUG [main] BigDecimalConverter:149 -     No conversion required, value is already a BigDecimal
+2020-08-03 09:44:28,693 DEBUG [main] BigIntegerConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,696 DEBUG [main] BigIntegerConverter:127 - Converting 'BigInteger' value '0' to type 'BigInteger'
+2020-08-03 09:44:28,698 DEBUG [main] BigIntegerConverter:149 -     No conversion required, value is already a BigInteger
+2020-08-03 09:44:28,700 DEBUG [main] BooleanConverter:336 - Setting default value: false
+2020-08-03 09:44:28,702 DEBUG [main] BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-08-03 09:44:28,703 DEBUG [main] BooleanConverter:149 -     No conversion required, value is already a Boolean
+2020-08-03 09:44:28,705 DEBUG [main] ByteConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,707 DEBUG [main] ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2020-08-03 09:44:28,710 DEBUG [main] ByteConverter:158 -     Converted to Byte value '0'
+2020-08-03 09:44:28,712 DEBUG [main] CharacterConverter:336 - Setting default value:  
+2020-08-03 09:44:28,714 DEBUG [main] CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2020-08-03 09:44:28,718 DEBUG [main] CharacterConverter:149 -     No conversion required, value is already a Character
+2020-08-03 09:44:28,736 DEBUG [main] DoubleConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,751 DEBUG [main] DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2020-08-03 09:44:28,753 DEBUG [main] DoubleConverter:158 -     Converted to Double value '0.0'
+2020-08-03 09:44:28,755 DEBUG [main] FloatConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,778 DEBUG [main] FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2020-08-03 09:44:28,782 DEBUG [main] FloatConverter:158 -     Converted to Float value '0.0'
+2020-08-03 09:44:28,784 DEBUG [main] IntegerConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,791 DEBUG [main] IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2020-08-03 09:44:28,800 DEBUG [main] IntegerConverter:149 -     No conversion required, value is already a Integer
+2020-08-03 09:44:28,812 DEBUG [main] LongConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,824 DEBUG [main] LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2020-08-03 09:44:28,831 DEBUG [main] LongConverter:158 -     Converted to Long value '0'
+2020-08-03 09:44:28,833 DEBUG [main] ShortConverter:336 - Setting default value: 0
+2020-08-03 09:44:28,834 DEBUG [main] ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2020-08-03 09:44:28,836 DEBUG [main] ShortConverter:158 -     Converted to Short value '0'
+2020-08-03 09:44:28,850 DEBUG [main] StringConverter:336 - Setting default value: 
+2020-08-03 09:44:28,852 DEBUG [main] StringConverter:127 - Converting 'String' value '' to type 'String'
+2020-08-03 09:44:28,961 DEBUG [main] ArrayConverter:336 - Setting default value: [Z@7fe1a856
+2020-08-03 09:44:28,964 DEBUG [main] ArrayConverter:127 - Converting 'boolean[]' value '[Z@7fe1a856' to type 'boolean[]'
+2020-08-03 09:44:28,965 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a boolean[]
+2020-08-03 09:44:28,977 DEBUG [main] ArrayConverter:336 - Setting default value: [B@11f8d64
+2020-08-03 09:44:28,979 DEBUG [main] ArrayConverter:127 - Converting 'byte[]' value '[B@11f8d64' to type 'byte[]'
+2020-08-03 09:44:28,981 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a byte[]
+2020-08-03 09:44:28,982 DEBUG [main] ArrayConverter:336 - Setting default value: [C@62a193e0
+2020-08-03 09:44:28,984 DEBUG [main] ArrayConverter:127 - Converting 'char[]' value '[C@62a193e0' to type 'char[]'
+2020-08-03 09:44:28,985 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a char[]
+2020-08-03 09:44:28,990 DEBUG [main] ArrayConverter:336 - Setting default value: [D@489ec791
+2020-08-03 09:44:28,992 DEBUG [main] ArrayConverter:127 - Converting 'double[]' value '[D@489ec791' to type 'double[]'
+2020-08-03 09:44:28,994 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a double[]
+2020-08-03 09:44:28,996 DEBUG [main] ArrayConverter:336 - Setting default value: [F@24a38ef3
+2020-08-03 09:44:28,997 DEBUG [main] ArrayConverter:127 - Converting 'float[]' value '[F@24a38ef3' to type 'float[]'
+2020-08-03 09:44:29,020 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a float[]
+2020-08-03 09:44:29,022 DEBUG [main] ArrayConverter:336 - Setting default value: [I@74efc394
+2020-08-03 09:44:29,025 DEBUG [main] ArrayConverter:127 - Converting 'int[]' value '[I@74efc394' to type 'int[]'
+2020-08-03 09:44:29,027 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a int[]
+2020-08-03 09:44:29,044 DEBUG [main] ArrayConverter:336 - Setting default value: [J@794fbf0d
+2020-08-03 09:44:29,047 DEBUG [main] ArrayConverter:127 - Converting 'long[]' value '[J@794fbf0d' to type 'long[]'
+2020-08-03 09:44:29,048 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a long[]
+2020-08-03 09:44:29,050 DEBUG [main] ArrayConverter:336 - Setting default value: [S@12bb3666
+2020-08-03 09:44:29,051 DEBUG [main] ArrayConverter:127 - Converting 'short[]' value '[S@12bb3666' to type 'short[]'
+2020-08-03 09:44:29,055 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a short[]
+2020-08-03 09:44:29,058 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.math.BigDecimal;@1c71d704
+2020-08-03 09:44:29,060 DEBUG [main] ArrayConverter:127 - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@1c71d704' to type 'BigDecimal[]'
+2020-08-03 09:44:29,061 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a BigDecimal[]
+2020-08-03 09:44:29,062 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.math.BigInteger;@d5d9d92
+2020-08-03 09:44:29,077 DEBUG [main] ArrayConverter:127 - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@d5d9d92' to type 'BigInteger[]'
+2020-08-03 09:44:29,078 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a BigInteger[]
+2020-08-03 09:44:29,079 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Boolean;@126f428e
+2020-08-03 09:44:29,081 DEBUG [main] ArrayConverter:127 - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@126f428e' to type 'Boolean[]'
+2020-08-03 09:44:29,082 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Boolean[]
+2020-08-03 09:44:29,084 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Byte;@414a3c7d
+2020-08-03 09:44:29,085 DEBUG [main] ArrayConverter:127 - Converting 'Byte[]' value '[Ljava.lang.Byte;@414a3c7d' to type 'Byte[]'
+2020-08-03 09:44:29,098 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Byte[]
+2020-08-03 09:44:29,100 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Character;@aad1270
+2020-08-03 09:44:29,102 DEBUG [main] ArrayConverter:127 - Converting 'Character[]' value '[Ljava.lang.Character;@aad1270' to type 'Character[]'
+2020-08-03 09:44:29,104 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Character[]
+2020-08-03 09:44:29,105 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Double;@6e5dc02d
+2020-08-03 09:44:29,111 DEBUG [main] ArrayConverter:127 - Converting 'Double[]' value '[Ljava.lang.Double;@6e5dc02d' to type 'Double[]'
+2020-08-03 09:44:29,126 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Double[]
+2020-08-03 09:44:29,129 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Float;@1c93f349
+2020-08-03 09:44:29,130 DEBUG [main] ArrayConverter:127 - Converting 'Float[]' value '[Ljava.lang.Float;@1c93f349' to type 'Float[]'
+2020-08-03 09:44:29,132 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Float[]
+2020-08-03 09:44:29,137 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Integer;@47620803
+2020-08-03 09:44:29,147 DEBUG [main] ArrayConverter:127 - Converting 'Integer[]' value '[Ljava.lang.Integer;@47620803' to type 'Integer[]'
+2020-08-03 09:44:29,148 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Integer[]
+2020-08-03 09:44:29,150 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Long;@40a0364a
+2020-08-03 09:44:29,152 DEBUG [main] ArrayConverter:127 - Converting 'Long[]' value '[Ljava.lang.Long;@40a0364a' to type 'Long[]'
+2020-08-03 09:44:29,154 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Long[]
+2020-08-03 09:44:29,165 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Short;@2778f3d1
+2020-08-03 09:44:29,169 DEBUG [main] ArrayConverter:127 - Converting 'Short[]' value '[Ljava.lang.Short;@2778f3d1' to type 'Short[]'
+2020-08-03 09:44:29,170 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Short[]
+2020-08-03 09:44:29,172 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.String;@71702d3f
+2020-08-03 09:44:29,175 DEBUG [main] ArrayConverter:127 - Converting 'String[]' value '[Ljava.lang.String;@71702d3f' to type 'String[]'
+2020-08-03 09:44:29,178 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a String[]
+2020-08-03 09:44:29,180 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Class;@f9b97dc
+2020-08-03 09:44:29,183 DEBUG [main] ArrayConverter:127 - Converting 'Class[]' value '[Ljava.lang.Class;@f9b97dc' to type 'Class[]'
+2020-08-03 09:44:29,185 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Class[]
+2020-08-03 09:44:29,187 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.util.Date;@25ea3a5f
+2020-08-03 09:44:29,189 DEBUG [main] ArrayConverter:127 - Converting 'Date[]' value '[Ljava.util.Date;@25ea3a5f' to type 'Date[]'
+2020-08-03 09:44:29,193 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Date[]
+2020-08-03 09:44:29,197 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.util.Calendar;@5225f612
+2020-08-03 09:44:29,203 DEBUG [main] ArrayConverter:127 - Converting 'Calendar[]' value '[Ljava.util.Calendar;@5225f612' to type 'Calendar[]'
+2020-08-03 09:44:29,209 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Calendar[]
+2020-08-03 09:44:29,211 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.io.File;@751f445a
+2020-08-03 09:44:29,212 DEBUG [main] ArrayConverter:127 - Converting 'java.io.File[]' value '[Ljava.io.File;@751f445a' to type 'java.io.File[]'
+2020-08-03 09:44:29,214 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.io.File[]
+2020-08-03 09:44:29,221 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Date;@42ae0fcf
+2020-08-03 09:44:29,227 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@42ae0fcf' to type 'java.sql.Date[]'
+2020-08-03 09:44:29,228 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Date[]
+2020-08-03 09:44:29,230 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Time;@51a4472d
+2020-08-03 09:44:29,231 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@51a4472d' to type 'java.sql.Time[]'
+2020-08-03 09:44:29,233 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Time[]
+2020-08-03 09:44:29,235 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Timestamp;@6bd21eb7
+2020-08-03 09:44:29,237 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@6bd21eb7' to type 'java.sql.Timestamp[]'
+2020-08-03 09:44:29,239 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Timestamp[]
+2020-08-03 09:44:29,242 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.net.URL;@716a6343
+2020-08-03 09:44:29,243 DEBUG [main] ArrayConverter:127 - Converting 'java.net.URL[]' value '[Ljava.net.URL;@716a6343' to type 'java.net.URL[]'
+2020-08-03 09:44:29,245 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.net.URL[]
+2020-08-03 09:44:38,948  INFO [main] SharedSD:32 - Cleanup...!
+2020-08-03 09:44:38,949  INFO [main] SharedSD:33 - Test was completed
+2020-08-03 09:44:38,950  INFO [main] SharedSD:35 - *******************
+2020-08-03 11:38:16,154  INFO [main] SharedSD:18 - ***************************
+2020-08-03 11:38:16,162  INFO [main] SharedSD:19 - Test is starting.......!
+2020-08-03 11:38:25,549 DEBUG [main] BooleanConverter:336 - Setting default value: false
+2020-08-03 11:38:25,550 DEBUG [main] BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-08-03 11:38:25,550 DEBUG [main] BooleanConverter:149 -     No conversion required, value is already a Boolean
+2020-08-03 11:38:25,559 DEBUG [main] ByteConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,559 DEBUG [main] ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2020-08-03 11:38:25,560 DEBUG [main] ByteConverter:158 -     Converted to Byte value '0'
+2020-08-03 11:38:25,564 DEBUG [main] CharacterConverter:336 - Setting default value:  
+2020-08-03 11:38:25,565 DEBUG [main] CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2020-08-03 11:38:25,565 DEBUG [main] CharacterConverter:149 -     No conversion required, value is already a Character
+2020-08-03 11:38:25,568 DEBUG [main] DoubleConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,569 DEBUG [main] DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2020-08-03 11:38:25,569 DEBUG [main] DoubleConverter:158 -     Converted to Double value '0.0'
+2020-08-03 11:38:25,571 DEBUG [main] FloatConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,572 DEBUG [main] FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2020-08-03 11:38:25,574 DEBUG [main] FloatConverter:158 -     Converted to Float value '0.0'
+2020-08-03 11:38:25,576 DEBUG [main] IntegerConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,576 DEBUG [main] IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2020-08-03 11:38:25,579 DEBUG [main] IntegerConverter:149 -     No conversion required, value is already a Integer
+2020-08-03 11:38:25,581 DEBUG [main] LongConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,583 DEBUG [main] LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2020-08-03 11:38:25,583 DEBUG [main] LongConverter:158 -     Converted to Long value '0'
+2020-08-03 11:38:25,586 DEBUG [main] ShortConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,587 DEBUG [main] ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2020-08-03 11:38:25,587 DEBUG [main] ShortConverter:158 -     Converted to Short value '0'
+2020-08-03 11:38:25,589 DEBUG [main] BigDecimalConverter:336 - Setting default value: 0.0
+2020-08-03 11:38:25,590 DEBUG [main] BigDecimalConverter:127 - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2020-08-03 11:38:25,591 DEBUG [main] BigDecimalConverter:149 -     No conversion required, value is already a BigDecimal
+2020-08-03 11:38:25,592 DEBUG [main] BigIntegerConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,593 DEBUG [main] BigIntegerConverter:127 - Converting 'BigInteger' value '0' to type 'BigInteger'
+2020-08-03 11:38:25,593 DEBUG [main] BigIntegerConverter:149 -     No conversion required, value is already a BigInteger
+2020-08-03 11:38:25,594 DEBUG [main] BooleanConverter:336 - Setting default value: false
+2020-08-03 11:38:25,595 DEBUG [main] BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-08-03 11:38:25,596 DEBUG [main] BooleanConverter:149 -     No conversion required, value is already a Boolean
+2020-08-03 11:38:25,597 DEBUG [main] ByteConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,598 DEBUG [main] ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2020-08-03 11:38:25,598 DEBUG [main] ByteConverter:158 -     Converted to Byte value '0'
+2020-08-03 11:38:25,599 DEBUG [main] CharacterConverter:336 - Setting default value:  
+2020-08-03 11:38:25,600 DEBUG [main] CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2020-08-03 11:38:25,600 DEBUG [main] CharacterConverter:149 -     No conversion required, value is already a Character
+2020-08-03 11:38:25,611 DEBUG [main] DoubleConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,616 DEBUG [main] DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2020-08-03 11:38:25,617 DEBUG [main] DoubleConverter:158 -     Converted to Double value '0.0'
+2020-08-03 11:38:25,617 DEBUG [main] FloatConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,618 DEBUG [main] FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2020-08-03 11:38:25,618 DEBUG [main] FloatConverter:158 -     Converted to Float value '0.0'
+2020-08-03 11:38:25,619 DEBUG [main] IntegerConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,620 DEBUG [main] IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2020-08-03 11:38:25,621 DEBUG [main] IntegerConverter:149 -     No conversion required, value is already a Integer
+2020-08-03 11:38:25,632 DEBUG [main] LongConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,633 DEBUG [main] LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2020-08-03 11:38:25,634 DEBUG [main] LongConverter:158 -     Converted to Long value '0'
+2020-08-03 11:38:25,635 DEBUG [main] ShortConverter:336 - Setting default value: 0
+2020-08-03 11:38:25,635 DEBUG [main] ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2020-08-03 11:38:25,636 DEBUG [main] ShortConverter:158 -     Converted to Short value '0'
+2020-08-03 11:38:25,639 DEBUG [main] StringConverter:336 - Setting default value: 
+2020-08-03 11:38:25,641 DEBUG [main] StringConverter:127 - Converting 'String' value '' to type 'String'
+2020-08-03 11:38:25,675 DEBUG [main] ArrayConverter:336 - Setting default value: [Z@d5d9d92
+2020-08-03 11:38:25,676 DEBUG [main] ArrayConverter:127 - Converting 'boolean[]' value '[Z@d5d9d92' to type 'boolean[]'
+2020-08-03 11:38:25,682 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a boolean[]
+2020-08-03 11:38:25,682 DEBUG [main] ArrayConverter:336 - Setting default value: [B@126f428e
+2020-08-03 11:38:25,683 DEBUG [main] ArrayConverter:127 - Converting 'byte[]' value '[B@126f428e' to type 'byte[]'
+2020-08-03 11:38:25,683 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a byte[]
+2020-08-03 11:38:25,683 DEBUG [main] ArrayConverter:336 - Setting default value: [C@414a3c7d
+2020-08-03 11:38:25,685 DEBUG [main] ArrayConverter:127 - Converting 'char[]' value '[C@414a3c7d' to type 'char[]'
+2020-08-03 11:38:25,685 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a char[]
+2020-08-03 11:38:25,686 DEBUG [main] ArrayConverter:336 - Setting default value: [D@623e578b
+2020-08-03 11:38:25,689 DEBUG [main] ArrayConverter:127 - Converting 'double[]' value '[D@623e578b' to type 'double[]'
+2020-08-03 11:38:25,691 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a double[]
+2020-08-03 11:38:25,692 DEBUG [main] ArrayConverter:336 - Setting default value: [F@7e64b248
+2020-08-03 11:38:25,699 DEBUG [main] ArrayConverter:127 - Converting 'float[]' value '[F@7e64b248' to type 'float[]'
+2020-08-03 11:38:25,700 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a float[]
+2020-08-03 11:38:25,701 DEBUG [main] ArrayConverter:336 - Setting default value: [I@7e4f5062
+2020-08-03 11:38:25,701 DEBUG [main] ArrayConverter:127 - Converting 'int[]' value '[I@7e4f5062' to type 'int[]'
+2020-08-03 11:38:25,702 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a int[]
+2020-08-03 11:38:25,702 DEBUG [main] ArrayConverter:336 - Setting default value: [J@1c93f349
+2020-08-03 11:38:25,703 DEBUG [main] ArrayConverter:127 - Converting 'long[]' value '[J@1c93f349' to type 'long[]'
+2020-08-03 11:38:25,703 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a long[]
+2020-08-03 11:38:25,704 DEBUG [main] ArrayConverter:336 - Setting default value: [S@47620803
+2020-08-03 11:38:25,704 DEBUG [main] ArrayConverter:127 - Converting 'short[]' value '[S@47620803' to type 'short[]'
+2020-08-03 11:38:25,705 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a short[]
+2020-08-03 11:38:25,706 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.math.BigDecimal;@40a0364a
+2020-08-03 11:38:25,707 DEBUG [main] ArrayConverter:127 - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@40a0364a' to type 'BigDecimal[]'
+2020-08-03 11:38:25,708 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a BigDecimal[]
+2020-08-03 11:38:25,708 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.math.BigInteger;@2778f3d1
+2020-08-03 11:38:25,708 DEBUG [main] ArrayConverter:127 - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@2778f3d1' to type 'BigInteger[]'
+2020-08-03 11:38:25,709 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a BigInteger[]
+2020-08-03 11:38:25,710 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Boolean;@71702d3f
+2020-08-03 11:38:25,710 DEBUG [main] ArrayConverter:127 - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@71702d3f' to type 'Boolean[]'
+2020-08-03 11:38:25,711 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Boolean[]
+2020-08-03 11:38:25,716 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Byte;@f9b97dc
+2020-08-03 11:38:25,717 DEBUG [main] ArrayConverter:127 - Converting 'Byte[]' value '[Ljava.lang.Byte;@f9b97dc' to type 'Byte[]'
+2020-08-03 11:38:25,718 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Byte[]
+2020-08-03 11:38:25,718 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Character;@5503e208
+2020-08-03 11:38:25,718 DEBUG [main] ArrayConverter:127 - Converting 'Character[]' value '[Ljava.lang.Character;@5503e208' to type 'Character[]'
+2020-08-03 11:38:25,719 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Character[]
+2020-08-03 11:38:25,719 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Double;@1d3aefd
+2020-08-03 11:38:25,720 DEBUG [main] ArrayConverter:127 - Converting 'Double[]' value '[Ljava.lang.Double;@1d3aefd' to type 'Double[]'
+2020-08-03 11:38:25,720 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Double[]
+2020-08-03 11:38:25,720 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Float;@3f46fb53
+2020-08-03 11:38:25,721 DEBUG [main] ArrayConverter:127 - Converting 'Float[]' value '[Ljava.lang.Float;@3f46fb53' to type 'Float[]'
+2020-08-03 11:38:25,721 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Float[]
+2020-08-03 11:38:25,721 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Integer;@5e16e521
+2020-08-03 11:38:25,722 DEBUG [main] ArrayConverter:127 - Converting 'Integer[]' value '[Ljava.lang.Integer;@5e16e521' to type 'Integer[]'
+2020-08-03 11:38:25,722 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Integer[]
+2020-08-03 11:38:25,723 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Long;@5930a229
+2020-08-03 11:38:25,723 DEBUG [main] ArrayConverter:127 - Converting 'Long[]' value '[Ljava.lang.Long;@5930a229' to type 'Long[]'
+2020-08-03 11:38:25,724 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Long[]
+2020-08-03 11:38:25,724 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Short;@204d101
+2020-08-03 11:38:25,724 DEBUG [main] ArrayConverter:127 - Converting 'Short[]' value '[Ljava.lang.Short;@204d101' to type 'Short[]'
+2020-08-03 11:38:25,724 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Short[]
+2020-08-03 11:38:25,725 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.String;@2d17b6ad
+2020-08-03 11:38:25,725 DEBUG [main] ArrayConverter:127 - Converting 'String[]' value '[Ljava.lang.String;@2d17b6ad' to type 'String[]'
+2020-08-03 11:38:25,725 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a String[]
+2020-08-03 11:38:25,726 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Class;@72e36d0f
+2020-08-03 11:38:25,727 DEBUG [main] ArrayConverter:127 - Converting 'Class[]' value '[Ljava.lang.Class;@72e36d0f' to type 'Class[]'
+2020-08-03 11:38:25,731 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Class[]
+2020-08-03 11:38:25,732 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.util.Date;@5031786b
+2020-08-03 11:38:25,732 DEBUG [main] ArrayConverter:127 - Converting 'Date[]' value '[Ljava.util.Date;@5031786b' to type 'Date[]'
+2020-08-03 11:38:25,733 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Date[]
+2020-08-03 11:38:25,733 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.util.Calendar;@4f578fc2
+2020-08-03 11:38:25,733 DEBUG [main] ArrayConverter:127 - Converting 'Calendar[]' value '[Ljava.util.Calendar;@4f578fc2' to type 'Calendar[]'
+2020-08-03 11:38:25,734 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Calendar[]
+2020-08-03 11:38:25,734 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.io.File;@7d1cdebf
+2020-08-03 11:38:25,734 DEBUG [main] ArrayConverter:127 - Converting 'java.io.File[]' value '[Ljava.io.File;@7d1cdebf' to type 'java.io.File[]'
+2020-08-03 11:38:25,735 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.io.File[]
+2020-08-03 11:38:25,735 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Date;@56ed6e17
+2020-08-03 11:38:25,736 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@56ed6e17' to type 'java.sql.Date[]'
+2020-08-03 11:38:25,737 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Date[]
+2020-08-03 11:38:25,737 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Time;@43e55cfb
+2020-08-03 11:38:25,738 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@43e55cfb' to type 'java.sql.Time[]'
+2020-08-03 11:38:25,738 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Time[]
+2020-08-03 11:38:25,739 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Timestamp;@650ee893
+2020-08-03 11:38:25,739 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@650ee893' to type 'java.sql.Timestamp[]'
+2020-08-03 11:38:25,739 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Timestamp[]
+2020-08-03 11:38:25,740 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.net.URL;@68553e92
+2020-08-03 11:38:25,740 DEBUG [main] ArrayConverter:127 - Converting 'java.net.URL[]' value '[Ljava.net.URL;@68553e92' to type 'java.net.URL[]'
+2020-08-03 11:38:25,740 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.net.URL[]
+2020-08-03 11:38:34,095  INFO [main] SharedSD:32 - Cleanup...!
+2020-08-03 11:38:34,095  INFO [main] SharedSD:33 - Test was completed
+2020-08-03 11:38:34,095  INFO [main] SharedSD:35 - *******************
